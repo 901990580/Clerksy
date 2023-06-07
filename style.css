@@ -1,0 +1,448 @@
+/* ? Header */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1163px;
+    margin: auto;
+}
+
+header {
+    background-color: #163A24;
+    width: 1440px;
+    margin: auto;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-header {
+    margin-top: 20px;
+}
+
+.right-header {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    color: #FBFAF7;
+    margin-top: 20px;
+}
+
+.hero {
+    background-color: #163A24;
+    width: 1440px;
+    margin: auto;
+}
+
+.hero1 {
+    display: flex;
+    color: #fff;
+}
+
+.left-hero h2 {
+    margin-top: 120px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65px;
+}
+
+.left-hero p {
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.human {
+    display: flex;
+    gap: 100px;
+}
+
+.left-human img {
+    margin-top: 120px;
+}
+
+.right-human {
+    margin-top: 270px;
+}
+
+.right-human h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    color: #163A24;
+}
+
+.right-human p {
+    margin-top: 27px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #163A24;
+}
+
+.human2 {
+    display: flex;
+    gap: 116px;
+}
+
+.left-human2 h2 {  
+    margin-top: 105px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    color: #163A24;
+}
+
+.left-human2 p {
+    margin-top: 27px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #163A24;
+}
+
+.best h2 {
+    margin-bottom: 65px;
+    margin-top: 115px;
+    text-align: center;
+    font-size: 48px;
+    color: #fff;
+}
+
+.best1  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 85px;
+}
+
+.best1 img {
+    width: 110px;
+}
+
+.production {
+    background-color: #163A24;
+    width: 1440px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.quality h2 {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 48px;
+    color: #FBFAF7;
+}
+
+.quality1 {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    color: #FBFAF7;
+    align-items: center;
+}
+
+.lite p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    align-items: center;
+}
+
+.employees {
+    background-color: burlywood;
+    width: 1440px;
+    margin: auto;
+}
+
+.create h2 {
+    padding: 40px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    color: #163A24;
+}
+
+.create p {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #163A24;
+}
+
+.create1 img {
+    margin-left: 130px;
+}
+
+.human3 {
+    display: flex;
+    gap: 120px;
+    margin-top: 180px;
+}
+
+.left-human3 h2 {  
+    margin-top: 105px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    color: #163A24;
+}
+
+.left-human3 p {
+    margin-top: 27px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #163A24;
+}
+
+.consider h2 {
+    margin-top: 115px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    color: #163A24;
+}
+
+.consider p {
+    margin-top: 26px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #163A24;
+}
+
+.box_shadow {
+    display: flex;
+    justify-content: center;
+}
+
+.box_shadow1 {
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: bisque 0px 1px 4px;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.box_shadow1 h2 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 31.5px;
+    color: #163A24;
+}
+
+.box_shadow1 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #163A24;
+}
+
+.employees1 {
+    background-color: beige;
+    width: 1440px;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.easy h2 {
+    padding: 40px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 47px;
+    line-height: 54px;
+    color: #163A24;
+}
+
+.easy p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #163A24;
+}
+
+.container1 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.easy1 p {
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #163A24;
+}
+
+.easy1 h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 30px;
+    color: #163A24;
+}
+
+.easy2 img {
+    margin-top: 75px;
+}
+
+.human4 {
+    margin-top: 150px;
+    display: flex;
+    gap: 120px;
+}
+
+.left-human4 h2 {
+    margin-top: 100px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    color: #163A24;
+}
+
+.left-human4 p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #163A24;
+}
+
+.left-human4 button {
+    margin-top: 10px;
+    padding: 15px 30px;
+    border-radius: 20px;
+    background-color: #15762E;
+    color: #FBFAF7;
+    border: none;
+}
+
+.clerksy {
+    margin-top: 120px;
+    background-color: #163A24;
+    height: 400px;
+    width: 1440px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clerksy1 h2 {
+    padding: 40px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    color: #FBFAF7;
+    text-align: center;
+}
+
+.clerksy1 p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FBFAF7;
+    text-align: center;
+}
+
+.clerksy1 button {
+    margin-top: 18px;
+    padding: 10px 40px;
+    background-color: #FAB5A0;
+    border-radius: 20px;
+}
+
+.left-clerksy {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.right-clerksy {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    bottom: 0;
+}
+
+/* ? Stay up to date! */
+
+.stay {
+    background-color: #ffbf00;
+    width: 1440px;
+    margin: auto;
+}
+
+.to_date {
+    padding-top: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_stay h2 {
+    color: #163A24;
+    font-size: 48px;
+}
+
+.latest {
+    margin-top: 26px;
+    color: #163A24;
+    display: flex;
+    justify-content: space-between;
+}
+
+.policy {
+    color: #198C36;
+}
+
+/* ? A people company. */
+
+.people {
+    margin-top: 41px;
+    color: #163A24;
+}
+
+.people1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.i {
+    color: #198C36;
+}
+
+hr {
+    margin-top: 30px;
+}
+
+.company {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right_company {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    color: #198C36;
+}
